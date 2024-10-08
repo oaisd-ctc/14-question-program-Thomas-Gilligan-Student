@@ -56,7 +56,7 @@ class Program {
         int numOfSiblings = int.Parse(Console.ReadLine());
 
         Console.Clear();
-        Console.WriteLine($"My friend's name is {name}. {name} is {age} years old. {name}'s eye color is {eyeColor} and their hair color is {hairColor}. {name}'s shoe size is {shoeSize}. {name}'s favourite color is {favColor}, favourite movie/TV show is {favFilm}, favourite teacher is {favTeacher}, favourite class is {favClass}, favourite holiday is {favHoliday}, and favourite season is {favSeason}. Their dream job is {dreamJob}. In 5 years, they will be {age + 5} years old. {name} has {numOfSiblings} siblings.");
+        Console.WriteLine($"My friend's name is {name}. {name} is {age} years old. {name}'s eye color is {eyeColor} and their hair color is {hairColor}. {name}'s shoe size is {shoeSize}. {name}'s favourite color is {favColor}, favourite movie/TV show is {favFilm}, favourite teacher is {favTeacher}, favourite class is {favClass}, favourite holiday is {favHoliday}, and favourite season is {favSeason}. Their dream job is to be a(n) {dreamJob}. In 5 years, they will be {age + 5} years old. {name} has {numOfSiblings} siblings.");
 
     }
 }
